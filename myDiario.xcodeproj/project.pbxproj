@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D280E14235C83440045A320 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D280E13235C83440045A320 /* CloudKit.framework */; };
+		4D365511234CF01F001866AD /* segmented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D365510234CF01F001866AD /* segmented.swift */; };
+		4D6570ED2348F086005E32BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6570EC2348F086005E32BA /* AppDelegate.swift */; };
+		4D6570F22348F086005E32BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6570F02348F086005E32BA /* Main.storyboard */; };
+		4D6570F52348F086005E32BA /* myDiario.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D6570F32348F086005E32BA /* myDiario.xcdatamodeld */; };
+		4D6570F72348F089005E32BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6570F62348F089005E32BA /* Assets.xcassets */; };
+		4D6570FA2348F089005E32BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6570F82348F089005E32BA /* LaunchScreen.storyboard */; };
+		4D6571052348F089005E32BA /* myDiarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6571042348F089005E32BA /* myDiarioTests.swift */; };
+		4D6571102348F08A005E32BA /* myDiarioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65710F2348F08A005E32BA /* myDiarioUITests.swift */; };
+		4D6571342348F0F0005E32BA /* Cell1_ConData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65711F2348F0F0005E32BA /* Cell1_ConData.swift */; };
+		4D6571352348F0F0005E32BA /* Cell2_SenzaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6571202348F0F0005E32BA /* Cell2_SenzaData.swift */; };
+		4D6571362348F0F0005E32BA /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6571212348F0F0005E32BA /* AddCell.swift */; };
+		4D6571372348F0F0005E32BA /* Cell1_ConData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6571222348F0F0005E32BA /* Cell1_ConData.xib */; };
+		4D6571382348F0F0005E32BA /* AddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6571232348F0F0005E32BA /* AddCell.xib */; };
+		4D6571392348F0F0005E32BA /* ProgrammaOggiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6571242348F0F0005E32BA /* ProgrammaOggiCell.swift */; };
+		4D65713A2348F0F0005E32BA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6571252348F0F0005E32BA /* CollectionViewCell.swift */; };
+		4D65713B2348F0F0005E32BA /* Cell2_SenzaData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6571262348F0F0005E32BA /* Cell2_SenzaData.xib */; };
+		4D65713C2348F0F0005E32BA /* ProgrammaOggiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6571272348F0F0005E32BA /* ProgrammaOggiCell.xib */; };
+		4D65713D2348F0F0005E32BA /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6571282348F0F0005E32BA /* CoreDataController.swift */; };
+		4D6571432348F0F0005E32BA /* Images_descriptionsVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65712F2348F0F0005E32BA /* Images_descriptionsVCViewController.swift */; };
+		4D6571442348F0F0005E32BA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6571312348F0F0005E32BA /* API.swift */; };
+		4D68934A23527D3400D4B485 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68934923527D3400D4B485 /* SettingsVC.swift */; };
+		4D68934C235329B700D4B485 /* SelectedRowFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68934B235329B700D4B485 /* SelectedRowFinal.swift */; };
+		4D68934E2353C3B500D4B485 /* OrarioScolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68934D2353C3B500D4B485 /* OrarioScolVC.swift */; };
+		4D70F340234A10AA00D4257C /* NewEventoGroupedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D70F33F234A10AA00D4257C /* NewEventoGroupedVC.swift */; };
+		4D9059062427827100A713D1 /* bulletForDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9059052427827100A713D1 /* bulletForDayVC.swift */; };
+		4D949D1E241C102600065714 /* tryChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949D1D241C102600065714 /* tryChat.swift */; };
+		4D949D20241CEACA00065714 /* CloudModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949D1F241CEACA00065714 /* CloudModel.swift */; };
+		4D949D22241CECD400065714 /* sharingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949D21241CECD400065714 /* sharingModels.swift */; };
+		4D949D25241D878500065714 /* typesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D949D24241D878500065714 /* typesModels.swift */; };
+		4DCE444A234E455200FB0196 /* New_Impegni_ImminentiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE4449234E455200FB0196 /* New_Impegni_ImminentiVC.swift */; };
+		4DD19CD32369843100FBDA95 /* materSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD19CD22369843100FBDA95 /* materSettingsVC.swift */; };
+		4DEB0A38235B860500454D94 /* NewCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEB0A37235B860500454D94 /* NewCalendarVC.swift */; };
+		92865AB3B4A4E4E5EFD65CE8 /* Pods_myDiarioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061AA4BA29E078ECA39B43D2 /* Pods_myDiarioTests.framework */; };
+		93D2A7BBAE0BAA302CA8C979 /* Pods_myDiario.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4999F49BB96B2DD0B5BF7260 /* Pods_myDiario.framework */; };
+		A788250B67254A085EF2FBB7 /* Pods_myDiarioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08517806696C66F5E81EB62 /* Pods_myDiarioUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D6571012348F089005E32BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6570E12348F086005E32BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6570E82348F086005E32BA;
+			remoteInfo = myDiario;
+		};
+		4D65710C2348F089005E32BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6570E12348F086005E32BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6570E82348F086005E32BA;
+			remoteInfo = myDiario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061AA4BA29E078ECA39B43D2 /* Pods_myDiarioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myDiarioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D6E1078112F73FCE2CA8D6 /* Pods-myDiario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDiario.debug.xcconfig"; path = "Target Support Files/Pods-myDiario/Pods-myDiario.debug.xcconfig"; sourceTree = "<group>"; };
+		264A552E34AF6B05B6E6C59D /* Pods-myDiarioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDiarioUITests.release.xcconfig"; path = "Target Support Files/Pods-myDiarioUITests/Pods-myDiarioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4999F49BB96B2DD0B5BF7260 /* Pods_myDiario.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myDiario.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0EEAF4235C783C000654EF /* myDiario.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = myDiario.entitlements; sourceTree = "<group>"; };
+		4D280E13235C83440045A320 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		4D280E5C2368EBFF0045A320 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = /Users/enricoalberti/Desktop/FILES/Coding/Swift/myDiario/myDiario/model/README.md; sourceTree = "<absolute>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
+		4D365510234CF01F001866AD /* segmented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segmented.swift; sourceTree = "<group>"; };
+		4D6570E92348F086005E32BA /* myDiario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myDiario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6570EC2348F086005E32BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D6570F12348F086005E32BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D6570F42348F086005E32BA /* myDiario.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myDiario.xcdatamodel; sourceTree = "<group>"; };
+		4D6570F62348F089005E32BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D6570F92348F089005E32BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D6570FB2348F089005E32BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6571002348F089005E32BA /* myDiarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDiarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6571042348F089005E32BA /* myDiarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDiarioTests.swift; sourceTree = "<group>"; };
+		4D6571062348F089005E32BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D65710B2348F089005E32BA /* myDiarioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDiarioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D65710F2348F08A005E32BA /* myDiarioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDiarioUITests.swift; sourceTree = "<group>"; };
+		4D6571112348F08A005E32BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D65711F2348F0F0005E32BA /* Cell1_ConData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell1_ConData.swift; sourceTree = "<group>"; };
+		4D6571202348F0F0005E32BA /* Cell2_SenzaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell2_SenzaData.swift; sourceTree = "<group>"; };
+		4D6571212348F0F0005E32BA /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
+		4D6571222348F0F0005E32BA /* Cell1_ConData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell1_ConData.xib; sourceTree = "<group>"; };
+		4D6571232348F0F0005E32BA /* AddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCell.xib; sourceTree = "<group>"; };
+		4D6571242348F0F0005E32BA /* ProgrammaOggiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaOggiCell.swift; sourceTree = "<group>"; };
+		4D6571252348F0F0005E32BA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4D6571262348F0F0005E32BA /* Cell2_SenzaData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell2_SenzaData.xib; sourceTree = "<group>"; };
+		4D6571272348F0F0005E32BA /* ProgrammaOggiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgrammaOggiCell.xib; sourceTree = "<group>"; };
+		4D6571282348F0F0005E32BA /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataController.swift; path = ../diary/CoreDataController.swift; sourceTree = "<group>"; };
+		4D65712F2348F0F0005E32BA /* Images_descriptionsVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images_descriptionsVCViewController.swift; sourceTree = "<group>"; };
+		4D6571312348F0F0005E32BA /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4D6893452351083900D4B485 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		4D6893462351083A00D4B485 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4D68934923527D3400D4B485 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		4D68934B235329B700D4B485 /* SelectedRowFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedRowFinal.swift; sourceTree = "<group>"; };
+		4D68934D2353C3B500D4B485 /* OrarioScolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarioScolVC.swift; sourceTree = "<group>"; };
+		4D70F33F234A10AA00D4257C /* NewEventoGroupedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventoGroupedVC.swift; sourceTree = "<group>"; };
+		4D9059052427827100A713D1 /* bulletForDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bulletForDayVC.swift; sourceTree = "<group>"; };
+		4D949D1D241C102600065714 /* tryChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryChat.swift; sourceTree = "<group>"; };
+		4D949D1F241CEACA00065714 /* CloudModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudModel.swift; sourceTree = "<group>"; };
+		4D949D21241CECD400065714 /* sharingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingModels.swift; sourceTree = "<group>"; };
+		4D949D24241D878500065714 /* typesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typesModels.swift; sourceTree = "<group>"; };
+		4DCE4449234E455200FB0196 /* New_Impegni_ImminentiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Impegni_ImminentiVC.swift; sourceTree = "<group>"; };
+		4DD19CD22369843100FBDA95 /* materSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = materSettingsVC.swift; sourceTree = "<group>"; };
+		4DEB0A37235B860500454D94 /* NewCalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCalendarVC.swift; sourceTree = "<group>"; };
+		56221420E31D4257C88AFB67 /* Pods-myDiarioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDiarioUITests.debug.xcconfig"; path = "Target Support Files/Pods-myDiarioUITests/Pods-myDiarioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA8B938976279847E03C6DD /* Pods-myDiarioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDiarioTests.debug.xcconfig"; path = "Target Support Files/Pods-myDiarioTests/Pods-myDiarioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B996639BA60476F9AEF0B9F6 /* Pods-myDiarioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDiarioTests.release.xcconfig"; path = "Target Support Files/Pods-myDiarioTests/Pods-myDiarioTests.release.xcconfig"; sourceTree = "<group>"; };
+		E08517806696C66F5E81EB62 /* Pods_myDiarioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myDiarioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3895E55A763252F370BF3B5 /* Pods-myDiario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDiario.release.xcconfig"; path = "Target Support Files/Pods-myDiario/Pods-myDiario.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D6570E62348F086005E32BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D2A7BBAE0BAA302CA8C979 /* Pods_myDiario.framework in Frameworks */,
+				4D280E14235C83440045A320 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6570FD2348F089005E32BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92865AB3B4A4E4E5EFD65CE8 /* Pods_myDiarioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6571082348F089005E32BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A788250B67254A085EF2FBB7 /* Pods_myDiarioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D652FF7235B852B00C86736 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4D280E5C2368EBFF0045A320 /* README.md */,
+				4D6571282348F0F0005E32BA /* CoreDataController.swift */,
+				4D6571312348F0F0005E32BA /* API.swift */,
+				4D365510234CF01F001866AD /* segmented.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4D6570E02348F086005E32BA = {
+			isa = PBXGroup;
+			children = (
+				4D6570EB2348F086005E32BA /* myDiario */,
+				4D6571032348F089005E32BA /* myDiarioTests */,
+				4D65710E2348F08A005E32BA /* myDiarioUITests */,
+				4D6570EA2348F086005E32BA /* Products */,
+				B0784CEC79439CF1B3976638 /* Pods */,
+				991A3293F61E04C04578BF55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D6570EA2348F086005E32BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D6570E92348F086005E32BA /* myDiario.app */,
+				4D6571002348F089005E32BA /* myDiarioTests.xctest */,
+				4D65710B2348F089005E32BA /* myDiarioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6570EB2348F086005E32BA /* myDiario */ = {
+			isa = PBXGroup;
+			children = (
+				4D0EEAF4235C783C000654EF /* myDiario.entitlements */,
+				4D652FF7235B852B00C86736 /* model */,
+				4D65711E2348F0F0005E32BA /* Cells */,
+				4D6571292348F0F0005E32BA /* Controller */,
+				4D6570EC2348F086005E32BA /* AppDelegate.swift */,
+				4D6570F02348F086005E32BA /* Main.storyboard */,
+				4D6570F62348F089005E32BA /* Assets.xcassets */,
+				4D6570F82348F089005E32BA /* LaunchScreen.storyboard */,
+				4D6570FB2348F089005E32BA /* Info.plist */,
+				4D6570F32348F086005E32BA /* myDiario.xcdatamodeld */,
+			);
+			path = myDiario;
+			sourceTree = "<group>";
+		};
+		4D6571032348F089005E32BA /* myDiarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6571042348F089005E32BA /* myDiarioTests.swift */,
+				4D6571062348F089005E32BA /* Info.plist */,
+			);
+			path = myDiarioTests;
+			sourceTree = "<group>";
+		};
+		4D65710E2348F08A005E32BA /* myDiarioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D65710F2348F08A005E32BA /* myDiarioUITests.swift */,
+				4D6571112348F08A005E32BA /* Info.plist */,
+			);
+			path = myDiarioUITests;
+			sourceTree = "<group>";
+		};
+		4D65711E2348F0F0005E32BA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4D65711F2348F0F0005E32BA /* Cell1_ConData.swift */,
+				4D6571202348F0F0005E32BA /* Cell2_SenzaData.swift */,
+				4D6571212348F0F0005E32BA /* AddCell.swift */,
+				4D6571222348F0F0005E32BA /* Cell1_ConData.xib */,
+				4D6571232348F0F0005E32BA /* AddCell.xib */,
+				4D6571242348F0F0005E32BA /* ProgrammaOggiCell.swift */,
+				4D6571252348F0F0005E32BA /* CollectionViewCell.swift */,
+				4D6571262348F0F0005E32BA /* Cell2_SenzaData.xib */,
+				4D6571272348F0F0005E32BA /* ProgrammaOggiCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4D6571292348F0F0005E32BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D949D23241D876400065714 /* actualCloud */,
+				4D949D1C241C100700065714 /* cloud */,
+				4DEB0A39235B887F00454D94 /* impostazioni */,
+				4D68934D2353C3B500D4B485 /* OrarioScolVC.swift */,
+				4D65712F2348F0F0005E32BA /* Images_descriptionsVCViewController.swift */,
+				4D70F33F234A10AA00D4257C /* NewEventoGroupedVC.swift */,
+				4DCE4449234E455200FB0196 /* New_Impegni_ImminentiVC.swift */,
+				4D68934B235329B700D4B485 /* SelectedRowFinal.swift */,
+				4DEB0A37235B860500454D94 /* NewCalendarVC.swift */,
+				4D9059052427827100A713D1 /* bulletForDayVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D949D1C241C100700065714 /* cloud */ = {
+			isa = PBXGroup;
+			children = (
+				4D949D1D241C102600065714 /* tryChat.swift */,
+				4D949D1F241CEACA00065714 /* CloudModel.swift */,
+				4D949D21241CECD400065714 /* sharingModels.swift */,
+			);
+			path = cloud;
+			sourceTree = "<group>";
+		};
+		4D949D23241D876400065714 /* actualCloud */ = {
+			isa = PBXGroup;
+			children = (
+				4D949D24241D878500065714 /* typesModels.swift */,
+			);
+			path = actualCloud;
+			sourceTree = "<group>";
+		};
+		4DEB0A39235B887F00454D94 /* impostazioni */ = {
+			isa = PBXGroup;
+			children = (
+				4D68934923527D3400D4B485 /* SettingsVC.swift */,
+				4DD19CD22369843100FBDA95 /* materSettingsVC.swift */,
+			);
+			path = impostazioni;
+			sourceTree = "<group>";
+		};
+		991A3293F61E04C04578BF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D280E13235C83440045A320 /* CloudKit.framework */,
+				4999F49BB96B2DD0B5BF7260 /* Pods_myDiario.framework */,
+				061AA4BA29E078ECA39B43D2 /* Pods_myDiarioTests.framework */,
+				E08517806696C66F5E81EB62 /* Pods_myDiarioUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0784CEC79439CF1B3976638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D6E1078112F73FCE2CA8D6 /* Pods-myDiario.debug.xcconfig */,
+				E3895E55A763252F370BF3B5 /* Pods-myDiario.release.xcconfig */,
+				ADA8B938976279847E03C6DD /* Pods-myDiarioTests.debug.xcconfig */,
+				B996639BA60476F9AEF0B9F6 /* Pods-myDiarioTests.release.xcconfig */,
+				56221420E31D4257C88AFB67 /* Pods-myDiarioUITests.debug.xcconfig */,
+				264A552E34AF6B05B6E6C59D /* Pods-myDiarioUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D6570E82348F086005E32BA /* myDiario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6571142348F08A005E32BA /* Build configuration list for PBXNativeTarget "myDiario" */;
+			buildPhases = (
+				379472143B98ED385996477B /* [CP] Check Pods Manifest.lock */,
+				4D6570E52348F086005E32BA /* Sources */,
+				4D6570E62348F086005E32BA /* Frameworks */,
+				4D6570E72348F086005E32BA /* Resources */,
+				3CDFBCD864BF083100976BBE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myDiario;
+			productName = myDiario;
+			productReference = 4D6570E92348F086005E32BA /* myDiario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D6570FF2348F089005E32BA /* myDiarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6571172348F08A005E32BA /* Build configuration list for PBXNativeTarget "myDiarioTests" */;
+			buildPhases = (
+				D1F447EA80FCE64F3E86C876 /* [CP] Check Pods Manifest.lock */,
+				4D6570FC2348F089005E32BA /* Sources */,
+				4D6570FD2348F089005E32BA /* Frameworks */,
+				4D6570FE2348F089005E32BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6571022348F089005E32BA /* PBXTargetDependency */,
+			);
+			name = myDiarioTests;
+			productName = myDiarioTests;
+			productReference = 4D6571002348F089005E32BA /* myDiarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D65710A2348F089005E32BA /* myDiarioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D65711A2348F08A005E32BA /* Build configuration list for PBXNativeTarget "myDiarioUITests" */;
+			buildPhases = (
+				1CB051B183A1D0772052D1D6 /* [CP] Check Pods Manifest.lock */,
+				4D6571072348F089005E32BA /* Sources */,
+				4D6571082348F089005E32BA /* Frameworks */,
+				4D6571092348F089005E32BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D65710D2348F089005E32BA /* PBXTargetDependency */,
+			);
+			name = myDiarioUITests;
+			productName = myDiarioUITests;
+			productReference = 4D65710B2348F089005E32BA /* myDiarioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D6570E12348F086005E32BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Enrico Alberti";
+				TargetAttributes = {
+					4D6570E82348F086005E32BA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					4D6570FF2348F089005E32BA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4D6570E82348F086005E32BA;
+					};
+					4D65710A2348F089005E32BA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4D6570E82348F086005E32BA;
+					};
+				};
+			};
+			buildConfigurationList = 4D6570E42348F086005E32BA /* Build configuration list for PBXProject "myDiario" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = 4D6570E02348F086005E32BA;
+			productRefGroup = 4D6570EA2348F086005E32BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D6570E82348F086005E32BA /* myDiario */,
+				4D6570FF2348F089005E32BA /* myDiarioTests */,
+				4D65710A2348F089005E32BA /* myDiarioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D6570E72348F086005E32BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6571372348F0F0005E32BA /* Cell1_ConData.xib in Resources */,
+				4D6570FA2348F089005E32BA /* LaunchScreen.storyboard in Resources */,
+				4D65713C2348F0F0005E32BA /* ProgrammaOggiCell.xib in Resources */,
+				4D65713B2348F0F0005E32BA /* Cell2_SenzaData.xib in Resources */,
+				4D6570F72348F089005E32BA /* Assets.xcassets in Resources */,
+				4D6571382348F0F0005E32BA /* AddCell.xib in Resources */,
+				4D6570F22348F086005E32BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6570FE2348F089005E32BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6571092348F089005E32BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CB051B183A1D0772052D1D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myDiarioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		379472143B98ED385996477B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myDiario-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CDFBCD864BF083100976BBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myDiario/Pods-myDiario-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myDiario/Pods-myDiario-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myDiario/Pods-myDiario-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F447EA80FCE64F3E86C876 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myDiarioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6570E52348F086005E32BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D365511234CF01F001866AD /* segmented.swift in Sources */,
+				4D9059062427827100A713D1 /* bulletForDayVC.swift in Sources */,
+				4D6571392348F0F0005E32BA /* ProgrammaOggiCell.swift in Sources */,
+				4D949D1E241C102600065714 /* tryChat.swift in Sources */,
+				4D949D25241D878500065714 /* typesModels.swift in Sources */,
+				4DEB0A38235B860500454D94 /* NewCalendarVC.swift in Sources */,
+				4D949D22241CECD400065714 /* sharingModels.swift in Sources */,
+				4D70F340234A10AA00D4257C /* NewEventoGroupedVC.swift in Sources */,
+				4D6571342348F0F0005E32BA /* Cell1_ConData.swift in Sources */,
+				4D65713A2348F0F0005E32BA /* CollectionViewCell.swift in Sources */,
+				4D6571442348F0F0005E32BA /* API.swift in Sources */,
+				4D6570ED2348F086005E32BA /* AppDelegate.swift in Sources */,
+				4D65713D2348F0F0005E32BA /* CoreDataController.swift in Sources */,
+				4DCE444A234E455200FB0196 /* New_Impegni_ImminentiVC.swift in Sources */,
+				4D949D20241CEACA00065714 /* CloudModel.swift in Sources */,
+				4D6571362348F0F0005E32BA /* AddCell.swift in Sources */,
+				4D68934E2353C3B500D4B485 /* OrarioScolVC.swift in Sources */,
+				4D6570F52348F086005E32BA /* myDiario.xcdatamodeld in Sources */,
+				4DD19CD32369843100FBDA95 /* materSettingsVC.swift in Sources */,
+				4D68934C235329B700D4B485 /* SelectedRowFinal.swift in Sources */,
+				4D68934A23527D3400D4B485 /* SettingsVC.swift in Sources */,
+				4D6571432348F0F0005E32BA /* Images_descriptionsVCViewController.swift in Sources */,
+				4D6571352348F0F0005E32BA /* Cell2_SenzaData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6570FC2348F089005E32BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6571052348F089005E32BA /* myDiarioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6571072348F089005E32BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6571102348F08A005E32BA /* myDiarioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D6571022348F089005E32BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6570E82348F086005E32BA /* myDiario */;
+			targetProxy = 4D6571012348F089005E32BA /* PBXContainerItemProxy */;
+		};
+		4D65710D2348F089005E32BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6570E82348F086005E32BA /* myDiario */;
+			targetProxy = 4D65710C2348F089005E32BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D6570F02348F086005E32BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6570F12348F086005E32BA /* Base */,
+				4D6893452351083900D4B485 /* it */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D6570F82348F089005E32BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6570F92348F089005E32BA /* Base */,
+				4D6893462351083A00D4B485 /* it */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D6571122348F08A005E32BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D6571132348F08A005E32BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D6571152348F08A005E32BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D6E1078112F73FCE2CA8D6 /* Pods-myDiario.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = myDiario/myDiario.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = myDiario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.myDiario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D6571162348F08A005E32BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3895E55A763252F370BF3B5 /* Pods-myDiario.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = myDiario/myDiario.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = myDiario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.myDiario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D6571182348F08A005E32BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA8B938976279847E03C6DD /* Pods-myDiarioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = myDiarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.myDiarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myDiario.app/myDiario";
+			};
+			name = Debug;
+		};
+		4D6571192348F08A005E32BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B996639BA60476F9AEF0B9F6 /* Pods-myDiarioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = myDiarioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.myDiarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myDiario.app/myDiario";
+			};
+			name = Release;
+		};
+		4D65711B2348F08A005E32BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56221420E31D4257C88AFB67 /* Pods-myDiarioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = myDiarioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.myDiarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myDiario;
+			};
+			name = Debug;
+		};
+		4D65711C2348F08A005E32BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264A552E34AF6B05B6E6C59D /* Pods-myDiarioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = myDiarioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.myDiarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myDiario;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D6570E42348F086005E32BA /* Build configuration list for PBXProject "myDiario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6571122348F08A005E32BA /* Debug */,
+				4D6571132348F08A005E32BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6571142348F08A005E32BA /* Build configuration list for PBXNativeTarget "myDiario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6571152348F08A005E32BA /* Debug */,
+				4D6571162348F08A005E32BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6571172348F08A005E32BA /* Build configuration list for PBXNativeTarget "myDiarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6571182348F08A005E32BA /* Debug */,
+				4D6571192348F08A005E32BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D65711A2348F08A005E32BA /* Build configuration list for PBXNativeTarget "myDiarioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D65711B2348F08A005E32BA /* Debug */,
+				4D65711C2348F08A005E32BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D6570F32348F086005E32BA /* myDiario.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D6570F42348F086005E32BA /* myDiario.xcdatamodel */,
+			);
+			currentVersion = 4D6570F42348F086005E32BA /* myDiario.xcdatamodel */;
+			path = myDiario.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D6570E12348F086005E32BA /* Project object */;
+}

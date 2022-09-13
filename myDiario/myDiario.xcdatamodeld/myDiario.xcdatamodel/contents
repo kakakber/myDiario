@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19A583" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BulletList" representedClassName="BulletList" syncable="YES" codeGenerationType="class">
+        <attribute name="actualContent" optional="YES" attributeType="Transformable"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="doneList" optional="YES" attributeType="Transformable"/>
+        <attribute name="idOfBullet" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Immagini" representedClassName="Immagini" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="String"/>
+        <attribute name="descrizione" optional="YES" attributeType="String"/>
+        <attribute name="idOfImage" optional="YES" attributeType="String"/>
+        <attribute name="idOfImpegno" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="materia" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Impegno" representedClassName="Impegno" syncable="YES" codeGenerationType="class">
+        <attribute name="colore" optional="YES" attributeType="String"/>
+        <attribute name="completato" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="descrizione" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="materia" optional="YES" attributeType="String"/>
+        <attribute name="perData" optional="YES" attributeType="String"/>
+        <attribute name="tipo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="OrarioD" representedClassName="OrarioD" syncable="YES" codeGenerationType="class">
+        <attribute name="colore" optional="YES" attributeType="String"/>
+        <attribute name="descrizione" optional="YES" attributeType="String"/>
+        <attribute name="from" optional="YES" attributeType="String"/>
+        <attribute name="giorno" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="materia" optional="YES" attributeType="String"/>
+        <attribute name="to" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="BulletList" positionX="-27" positionY="99" width="128" height="103"/>
+        <element name="Immagini" positionX="-45" positionY="0" width="128" height="135"/>
+        <element name="Impegno" positionX="-18" positionY="72" width="128" height="148"/>
+        <element name="OrarioD" positionX="-27" positionY="90" width="128" height="148"/>
+    </elements>
+</model>

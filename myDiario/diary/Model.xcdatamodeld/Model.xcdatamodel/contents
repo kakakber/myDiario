@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.14.2" systemVersion="18A384a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Immagini" representedClassName="Immagini" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrizione" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idOfImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idOfImpegno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materia" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Impegno" representedClassName="Impegno" syncable="YES" codeGenerationType="class">
+        <attribute name="colore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="completato" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="descrizione" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="perData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Mail" representedClassName="Mail" syncable="YES" codeGenerationType="class">
+        <attribute name="mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OrarioD" representedClassName="OrarioD" syncable="YES" codeGenerationType="class">
+        <attribute name="colore" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descrizione" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giorno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="to" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Registro" representedClassName="Registro" syncable="YES" codeGenerationType="class">
+        <attribute name="codice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idMateria" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notePerFamiglia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="periodoPos" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="posizione" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tipoVoto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="votoDecimale" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="votoDisplay" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Immagini" positionX="-54" positionY="-9" width="128" height="135"/>
+        <element name="Impegno" positionX="-54" positionY="36" width="128" height="30"/>
+        <element name="Mail" positionX="-54" positionY="36" width="128" height="75"/>
+        <element name="Registro" positionX="-54" positionY="36" width="128" height="195"/>
+        <element name="OrarioD" positionX="-54" positionY="90" width="128" height="150"/>
+    </elements>
+</model>

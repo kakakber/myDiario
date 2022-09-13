@@ -1,0 +1,261 @@
+
+/* Class = "UIButton"; normalTitle = "Fine"; ObjectID = "0iU-cW-cdy"; */
+"0iU-cW-cdy.normalTitle" = "Fine";
+
+/* Class = "UINavigationItem"; title = "Calendario"; ObjectID = "1Ih-iN-7Gc"; */
+"1Ih-iN-7Gc.title" = "Calendario";
+
+/* Class = "UILabel"; text = "Per 18 febbraio 2001"; ObjectID = "2AF-dK-HWk"; */
+"2AF-dK-HWk.text" = "Per 18 febbraio 2001";
+
+/* Class = "UITextView"; text = "Non ci sono eventi personali in programma "; ObjectID = "3KG-tp-hp5"; */
+"3KG-tp-hp5.text" = "Non ci sono eventi personali in programma ";
+
+/* Class = "UILabel"; text = "Descrizione:"; ObjectID = "3Xv-g2-mcY"; */
+"3Xv-g2-mcY.text" = "Descrizione:";
+
+/* Class = "UILabel"; text = "Scegli un colore:"; ObjectID = "4bb-kR-Ozo"; */
+"4bb-kR-Ozo.text" = "Scegli un colore:";
+
+/* Class = "UILabel"; text = "Data"; ObjectID = "6FA-om-IdP"; */
+"6FA-om-IdP.text" = "Data";
+
+/* Class = "UINavigationItem"; title = "Nuovo evento"; ObjectID = "7P0-Ug-MiM"; */
+"7P0-Ug-MiM.title" = "Nuovo evento";
+
+/* Class = "UILabel"; text = "Data"; ObjectID = "7mV-E9-C3k"; */
+"7mV-E9-C3k.text" = "Data";
+
+/* Class = "UITabBarItem"; title = "Calendario"; ObjectID = "7th-cn-4fV"; */
+"7th-cn-4fV.title" = "Calendario";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit e"; ObjectID = "8iI-Wg-XKS"; */
+"8iI-Wg-XKS.text" = "Lorem ipsum dolor sit e";
+
+/* Class = "UIButton"; normalTitle = "Aggiungi"; ObjectID = "8ug-CO-0qf"; */
+"8ug-CO-0qf.normalTitle" = "Aggiungi";
+
+/* Class = "UIButton"; normalTitle = "Fine"; ObjectID = "9w8-9K-FWB"; */
+"9w8-9K-FWB.normalTitle" = "Fine";
+
+/* Class = "UITextField"; placeholder = "Data"; ObjectID = "AwR-qv-Xcb"; */
+"AwR-qv-Xcb.placeholder" = "Data";
+
+/* Class = "UITabBarItem"; title = "Imminenti"; ObjectID = "Bcy-To-odc"; */
+"Bcy-To-odc.title" = "Imminenti";
+
+/* Class = "UITextView"; text = "Vai nella sezione \"Registro elettronico\" e effettua l'accesso con classeviva per vedere gli eventi in agenda"; ObjectID = "Blj-x1-kxe"; */
+"Blj-x1-kxe.text" = "Vai nella sezione \"Registro elettronico\" e effettua l'accesso con classeviva per vedere gli eventi in agenda";
+
+/* Class = "UILabel"; text = "Giovedì 28 settembre"; ObjectID = "BrW-OS-mph"; */
+"BrW-OS-mph.text" = "Giovedì 28 settembre";
+
+/* Class = "UILabel"; text = "18:37"; ObjectID = "DdI-Tq-NqX"; */
+"DdI-Tq-NqX.text" = "18:37";
+
+/* Class = "UILabel"; text = "Per 18 febbraio 2001"; ObjectID = "Dps-T7-geb"; */
+"Dps-T7-geb.text" = "Per 18 febbraio 2001";
+
+/* Class = "UILabel"; text = "Notifica"; ObjectID = "EOu-nj-xmb"; */
+"EOu-nj-xmb.text" = "Notifica";
+
+/* Class = "UITextView"; text = "-"; ObjectID = "EzU-Lp-XE4"; */
+"EzU-Lp-XE4.text" = "-";
+
+/* Class = "UIBarButtonItem"; title = "esci"; ObjectID = "GT1-kD-Wh4"; */
+"GT1-kD-Wh4.title" = "esci";
+
+/* Class = "UILabel"; text = "Annotazione"; ObjectID = "GfJ-wB-5S7"; */
+"GfJ-wB-5S7.text" = "Annotazione";
+
+/* Class = "UITextField"; placeholder = "Tipo (es. verifica, compito...)"; ObjectID = "H4R-ND-XzX"; */
+"H4R-ND-XzX.placeholder" = "Tipo (es. verifica, compito...)";
+
+/* Class = "UILabel"; text = "COMPITO"; ObjectID = "Iwr-kw-4zi"; */
+"Iwr-kw-4zi.text" = "COMPITO";
+
+/* Class = "UIViewController"; title = "FSCalendarScopeExample"; ObjectID = "Izp-y2-5da"; */
+"Izp-y2-5da.title" = "FSCalendarScopeExample";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "J29-DO-MKl"; */
+"J29-DO-MKl.title" = "Item";
+
+/* Class = "UILabel"; text = "Notificami alle ore:"; ObjectID = "Ju1-Hn-6dq"; */
+"Ju1-Hn-6dq.text" = "Notificami alle ore:";
+
+/* Class = "UIViewController"; title = "FSCalendarScopeExample"; ObjectID = "Jvv-dQ-Kzh"; */
+"Jvv-dQ-Kzh.title" = "FSCalendarScopeExample";
+
+/* Class = "UINavigationItem"; title = "Nuovo evento"; ObjectID = "KJX-5O-9nh"; */
+"KJX-5O-9nh.title" = "Nuovo evento";
+
+/* Class = "UILabel"; text = "Colore"; ObjectID = "KkX-gM-QZZ"; */
+"KkX-gM-QZZ.text" = "Colore";
+
+/* Class = "UILabel"; text = "18:20 lun 22 mag"; ObjectID = "KmY-JM-hNb"; */
+"KmY-JM-hNb.text" = "18:20 lun 22 mag";
+
+/* Class = "UIBarButtonItem"; title = "esci"; ObjectID = "L6E-Up-RQL"; */
+"L6E-Up-RQL.title" = "esci";
+
+/* Class = "UITextView"; text = "Non sono presenti immagini per questa materia"; ObjectID = "Llm-CO-wcc"; */
+"Llm-CO-wcc.text" = "Non sono presenti immagini per questa materia";
+
+/* Class = "UILabel"; text = "Dettagli:"; ObjectID = "Lzj-BG-kS1"; */
+"Lzj-BG-kS1.text" = "Dettagli:";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit ed"; ObjectID = "Mcl-l5-gaX"; */
+"Mcl-l5-gaX.text" = "Lorem ipsum dolor sit ed";
+
+/* Class = "UILabel"; text = "Descrizione:"; ObjectID = "NL8-aG-AHT"; */
+"NL8-aG-AHT.text" = "Descrizione:";
+
+/* Class = "UILabel"; text = "COMPITO"; ObjectID = "PML-eI-Rkf"; */
+"PML-eI-Rkf.text" = "COMPITO";
+
+/* Class = "UILabel"; text = "COMPITO"; ObjectID = "QNc-wT-0kG"; */
+"QNc-wT-0kG.text" = "COMPITO";
+
+/* Class = "UITextField"; placeholder = "Inserisci la descrizione dell'evento"; ObjectID = "Qdk-8O-ILN"; */
+"Qdk-8O-ILN.placeholder" = "Inserisci la descrizione dell'evento";
+
+/* Class = "UILabel"; text = "Descrizione:"; ObjectID = "QwI-hZ-ImF"; */
+"QwI-hZ-ImF.text" = "Descrizione:";
+
+/* Class = "UILabel"; text = "Matematica"; ObjectID = "S2G-eD-ag3"; */
+"S2G-eD-ag3.text" = "Matematica";
+
+/* Class = "UILabel"; text = "Descrizione:"; ObjectID = "Sa5-Tf-LAm"; */
+"Sa5-Tf-LAm.text" = "Descrizione:";
+
+/* Class = "UILabel"; text = "Annotazione"; ObjectID = "T5H-Qy-xny"; */
+"T5H-Qy-xny.text" = "Annotazione";
+
+/* Class = "UILabel"; text = "Venerdì 28 novembre 2017"; ObjectID = "TVG-by-epw"; */
+"TVG-by-epw.text" = "Venerdì 28 novembre 2017";
+
+/* Class = "UILabel"; text = "Matematica"; ObjectID = "TdM-d8-YW8"; */
+"TdM-d8-YW8.text" = "Matematica";
+
+/* Class = "UILabel"; text = "15 NOVEMBRE 2018"; ObjectID = "U7e-xa-cKz"; */
+"U7e-xa-cKz.text" = "15 NOVEMBRE 2018";
+
+/* Class = "UILabel"; text = "Sisana Lucio"; ObjectID = "WUZ-4r-3e9"; */
+"WUZ-4r-3e9.text" = "Sisana Lucio";
+
+/* Class = "UINavigationItem"; title = "Imminenti"; ObjectID = "Y3c-O8-eBj"; */
+"Y3c-O8-eBj.title" = "Imminenti";
+
+/* Class = "UIButton"; normalTitle = "Aggiungi"; ObjectID = "Z22-8O-uhS"; */
+"Z22-8O-uhS.normalTitle" = "Aggiungi";
+
+/* Class = "UITextView"; text = "das"; ObjectID = "ZfN-nz-rGL"; */
+"ZfN-nz-rGL.text" = "das";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Zqq-q9-D5H"; */
+"Zqq-q9-D5H.title" = "Title";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit ed"; ObjectID = "aBg-qJ-dcQ"; */
+"aBg-qJ-dcQ.text" = "Lorem ipsum dolor sit ed";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit e"; ObjectID = "dMN-vg-Dua"; */
+"dMN-vg-Dua.text" = "Lorem ipsum dolor sit e";
+
+/* Class = "UILabel"; text = "Matematica"; ObjectID = "dkU-KB-yz0"; */
+"dkU-KB-yz0.text" = "Matematica";
+
+/* Class = "UINavigationItem"; title = "Imminenti"; ObjectID = "eFO-QA-33a"; */
+"eFO-QA-33a.title" = "Imminenti";
+
+/* Class = "UITextView"; text = "Non ci sono eventi in programma per questo giorno"; ObjectID = "eIf-Ud-V4C"; */
+"eIf-Ud-V4C.text" = "Non ci sono eventi in programma per questo giorno";
+
+/* Class = "UITextField"; placeholder = "Tipo"; ObjectID = "ecq-as-FxJ"; */
+"ecq-as-FxJ.placeholder" = "Tipo";
+
+/* Class = "UITextField"; text = "Verifica"; ObjectID = "ecq-as-FxJ"; */
+"ecq-as-FxJ.text" = "Verifica";
+
+/* Class = "UIButton"; normalTitle = "Aggiungi"; ObjectID = "fY3-IE-W8G"; */
+"fY3-IE-W8G.normalTitle" = "Aggiungi";
+
+/* Class = "UIBarButtonItem"; title = "esci"; ObjectID = "gMY-LL-cYn"; */
+"gMY-LL-cYn.title" = "esci";
+
+/* Class = "UITextField"; placeholder = "Inserisci la descrizione dell'evento"; ObjectID = "gNW-oq-noq"; */
+"gNW-oq-noq.placeholder" = "Inserisci la descrizione dell'evento";
+
+/* Class = "UITextField"; placeholder = "Materia (es. matematica, inglese...)"; ObjectID = "gji-gH-Jcs"; */
+"gji-gH-Jcs.placeholder" = "Materia (es. matematica, inglese...)";
+
+/* Class = "UILabel"; text = "COMPITO"; ObjectID = "gzM-IZ-kY9"; */
+"gzM-IZ-kY9.text" = "COMPITO";
+
+/* Class = "UILabel"; text = "Oggi:"; ObjectID = "hQf-ki-4DM"; */
+"hQf-ki-4DM.text" = "Oggi:";
+
+/* Class = "UIButton"; normalTitle = "Annulla"; ObjectID = "hzL-pw-F9D"; */
+"hzL-pw-F9D.normalTitle" = "Annulla";
+
+/* Class = "UILabel"; text = "13 ottobre 2019"; ObjectID = "iQs-mW-ykd"; */
+"iQs-mW-ykd.text" = "13 ottobre 2019";
+
+/* Class = "UILabel"; text = "13 ottobre 2019"; ObjectID = "j6J-nZ-70o"; */
+"j6J-nZ-70o.text" = "13 ottobre 2019";
+
+/* Class = "UILabel"; text = "Venerdì 28 novembre 2017"; ObjectID = "lAZ-xl-ZUP"; */
+"lAZ-xl-ZUP.text" = "Venerdì 28 novembre 2017";
+
+/* Class = "UILabel"; text = "Eventi del giorno:"; ObjectID = "pW7-7F-FLx"; */
+"pW7-7F-FLx.text" = "Eventi del giorno:";
+
+/* Class = "UIBarButtonItem"; title = "Salva"; ObjectID = "pex-eS-oNY"; */
+"pex-eS-oNY.title" = "Salva";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "qlZ-UM-DgG"; */
+"qlZ-UM-DgG.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "scO-y0-LrT"; */
+"scO-y0-LrT.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "tAH-YR-GBC"; */
+"tAH-YR-GBC.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UINavigationItem"; title = "Immagini"; ObjectID = "tfU-qa-D9g"; */
+"tfU-qa-D9g.title" = "Immagini";
+
+/* Class = "UISegmentedControl"; twP-Cd-iQv.segmentTitles[0] = "Skeleton"; ObjectID = "twP-Cd-iQv"; */
+"twP-Cd-iQv.segmentTitles[0]" = "Skeleton";
+
+/* Class = "UISegmentedControl"; twP-Cd-iQv.segmentTitles[1] = "Bubbly"; ObjectID = "twP-Cd-iQv"; */
+"twP-Cd-iQv.segmentTitles[1]" = "Bubbly";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "uK5-zj-l3l"; */
+"uK5-zj-l3l.text" = "-";
+
+/* Class = "UILabel"; text = "Descrizione:"; ObjectID = "uzV-uq-a2D"; */
+"uzV-uq-a2D.text" = "Descrizione:";
+
+/* Class = "UINavigationItem"; title = "Calendario"; ObjectID = "vbb-vh-HtJ"; */
+"vbb-vh-HtJ.title" = "Calendario";
+
+/* Class = "UILabel"; text = "Sisana Lucio"; ObjectID = "vqa-Fa-6XO"; */
+"vqa-Fa-6XO.text" = "Sisana Lucio";
+
+/* Class = "UILabel"; text = "10:00-11:00"; ObjectID = "xTV-hQ-weS"; */
+"xTV-hQ-weS.text" = "10:00-11:00";
+
+/* Class = "UILabel"; text = "10:00-11:00"; ObjectID = "xgK-rD-yzt"; */
+"xgK-rD-yzt.text" = "10:00-11:00";
+
+/* Class = "UILabel"; text = "Matematica"; ObjectID = "xx3-bB-Kxi"; */
+"xx3-bB-Kxi.text" = "Matematica";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "ybZ-Hj-hWI"; */
+"ybZ-Hj-hWI.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Altra immagine"; ObjectID = "zuk-66-6Rz"; */
+"zuk-66-6Rz.normalTitle" = "Altra immagine";
+
+/* Class = "UITextField"; placeholder = "Descrizione"; ObjectID = "zvc-YL-5j9"; */
+"zvc-YL-5j9.placeholder" = "Descrizione";
